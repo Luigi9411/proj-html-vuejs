@@ -12,8 +12,8 @@
       <div class="logo">
             <img
             class="img-fluid"
-             src="img/logo-default-slim.png"
-             alt="">
+             src="../../public/images/logo-default-slim.png"
+             alt="logo">
       </div>
    </header>
 </template>
@@ -33,7 +33,7 @@ export default {
         margin: 0 auto;
         display: flex;
         height: 5vh;
-        gap: 1em;
+        gap: 2em;
         align-items: center;
         list-style-type: none;
         color: white;
@@ -44,8 +44,16 @@ export default {
       }
     }
     .logo{
-      height: 15vh;
-
+      width: 1100px;
+      margin: 0 auto;
+      height: 12vh;
+      display: flex;
+      align-items: center;
+      background-color: white;
+      img{
+        width: 10%;
+        padding-left: 2em;
+      }
     }
   }
 </style>
