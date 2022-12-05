@@ -1,6 +1,6 @@
 <template>
    <header>
-      <div class="container">
+      <div class="container1">
          <ul>
           <li>Everything about Lifestyle, Travel and Godgets!</li>
           <li>SIGN IN</li>
@@ -10,7 +10,10 @@
          </ul>
       </div>
       <div class="logo">
-
+            <img
+            class="img-fluid"
+             src="img/logo-default-slim.png"
+             alt="">
       </div>
    </header>
 </template>
@@ -23,12 +26,11 @@ export default {
 
 <style lang="scss" scoped>
   header{
-    .container{
-      width: 1100px;
-      margin: 0 auto;
+    .container1{
       background-color: #0088CC;
-      height: 5vh;
       ul{
+        width: 1100px;
+        margin: 0 auto;
         display: flex;
         height: 5vh;
         gap: 1em;
