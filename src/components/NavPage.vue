@@ -24,7 +24,7 @@ export default {
 
 <style lang="scss" scoped>
    nav{
-     border-top: 1px solid lightgray;
+     border-top: 1px solid #F1F1F1;
      .container2{
        width: 1000px;
        margin: 0 auto;
@@ -37,7 +37,7 @@ export default {
         gap: 3em;
         align-items: center;
         list-style-type: none;
-        font-size: .8em;
+        font-size: .7em;
         font-weight: bold;
         padding-left: 0;
         .blu-color{

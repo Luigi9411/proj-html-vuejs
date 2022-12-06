@@ -2,7 +2,7 @@
   <div class="card">
     <img class="img-fluid" :src="article.src" :alt="error">
     <div>
-      <h6><span>{{article.button}}</span></h6>
+      <h6><span class="fw-bold">{{article.button}}</span></h6>
       <h3>{{article.title}}</h3>
     </div>
   </div>
@@ -22,6 +22,7 @@ export default {
     img{
       position: relative;
       width: 100%;
+      filter: brightness(0.55);
     }
     div{
       position: absolute;

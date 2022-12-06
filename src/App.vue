@@ -3,6 +3,7 @@
     <HeaderPage />
     <NavPage />
     <sectionTop />
+    <sectionBottom />
   </div>
 </template>
 
@@ -11,6 +12,7 @@
 import HeaderPage from '@/components/HeaderPage.vue';
 import NavPage from '@/components/NavPage.vue';
 import SectionTop from '@/components/SectionTop.vue';
+import SectionBottom from '@/components/SectionBottom.vue';
 
 export default {
   name: 'App',
@@ -18,6 +20,7 @@ export default {
     HeaderPage,
     NavPage,
     SectionTop,
+    SectionBottom,
   },
 };
 </script>
@@ -30,7 +33,7 @@ export default {
      padding: 0;
      box-sizing: border-box;
     }
-    body {
+    h3 {
       font-family: 'Roboto', sans-serif;
     }
 </style>
