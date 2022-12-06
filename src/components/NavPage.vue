@@ -26,7 +26,7 @@ export default {
    nav{
      border-top: 1px solid lightgray;
      .container2{
-       width: 1100px;
+       width: 1000px;
        margin: 0 auto;
        display: flex;
        justify-content: space-between;
@@ -39,6 +39,7 @@ export default {
         list-style-type: none;
         font-size: .8em;
         font-weight: bold;
+        padding-left: 0;
         .blu-color{
           color: #0088CC;
         }

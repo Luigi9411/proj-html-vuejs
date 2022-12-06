@@ -2,7 +2,7 @@
   <div>
     <HeaderPage />
     <NavPage />
-    <sectionOne />
+    <sectionTop />
   </div>
 </template>
 
@@ -10,22 +10,21 @@
 
 import HeaderPage from '@/components/HeaderPage.vue';
 import NavPage from '@/components/NavPage.vue';
-import SectionOne from '@/components/SectionOne.vue';
+import SectionTop from '@/components/SectionTop.vue';
 
 export default {
   name: 'App',
   components: {
     HeaderPage,
     NavPage,
-    SectionOne,
+    SectionTop,
   },
 };
 </script>
 
 <style lang="scss">
    @import "../node_modules/bootstrap/scss/bootstrap";
-   @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
    * {
      margin: 0;
      padding: 0;

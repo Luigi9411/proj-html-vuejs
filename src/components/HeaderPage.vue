@@ -29,7 +29,7 @@ export default {
     .container1{
       background-color: #0088CC;
       ul{
-        width: 1100px;
+        width: 1000px;
         margin: 0 auto;
         display: flex;
         height: 5vh;
@@ -38,13 +38,14 @@ export default {
         list-style-type: none;
         color: white;
         font-size: .6em;
+        padding-left: 0;
         li{
            cursor: pointer;
         }
       }
     }
     .logo{
-      width: 1100px;
+      width: 1000px;
       margin: 0 auto;
       height: 12vh;
       display: flex;
@@ -52,7 +53,7 @@ export default {
       background-color: white;
       img{
         width: 10%;
-        padding-left: 2em;
+
       }
     }
   }
