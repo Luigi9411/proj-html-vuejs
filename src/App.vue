@@ -2,20 +2,22 @@
   <div>
     <HeaderPage />
     <NavPage />
+    <sectionOne />
   </div>
 </template>
 
 <script>
 
 import HeaderPage from '@/components/HeaderPage.vue';
-
 import NavPage from '@/components/NavPage.vue';
+import SectionOne from '@/components/SectionOne.vue';
 
 export default {
   name: 'App',
   components: {
     HeaderPage,
     NavPage,
+    SectionOne,
   },
 };
 </script>
