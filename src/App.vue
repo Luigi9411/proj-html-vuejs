@@ -4,6 +4,7 @@
     <NavPage />
     <sectionTop />
     <sectionBottom />
+    <CategoriesPage />
   </div>
 </template>
 
@@ -13,6 +14,7 @@ import HeaderPage from '@/components/HeaderPage.vue';
 import NavPage from '@/components/NavPage.vue';
 import SectionTop from '@/components/SectionTop.vue';
 import SectionBottom from '@/components/SectionBottom.vue';
+import CategoriesPage from '@/components/CategoriesPage.vue';
 
 export default {
   name: 'App',
@@ -21,6 +23,7 @@ export default {
     NavPage,
     SectionTop,
     SectionBottom,
+    CategoriesPage,
   },
 };
 </script>
