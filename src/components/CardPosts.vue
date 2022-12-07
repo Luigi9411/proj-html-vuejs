@@ -1,6 +1,6 @@
 <template>
   <div class="card-posts">
-    <img class="img-fluid" :src="posts.src" :alt="error">
+    <img class="img-fluid" :src="posts.src" :alt="posts.src">
     <div>
       <h6 class="fw-normal">{{posts.title}}</h6>
       <p class="fw-lighter">{{posts.date}}</p>
