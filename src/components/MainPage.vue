@@ -163,7 +163,7 @@ export default {
 <style lang="scss" scoped>
       .container6{
         width: 1000px;
-        height: 100px;
+        min-height: 100px;
         margin: 0 auto;
         .max-photo{
            padding: 0 0;
