@@ -70,7 +70,7 @@ export default {
         padding: 2.5em 0;
         gap:1.5em;
         .card-article{
-         flex: 1 0 25%;
+         flex: 1 0 30%;
         }
        }
     }
