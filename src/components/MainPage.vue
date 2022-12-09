@@ -30,6 +30,10 @@
             <li class="number-blue">3</li>
             <li><font-awesome-icon class="icons-two" icon="fa-solid fa-chevron-right" /></li>
            </ul>
+           <div class="touch">
+             <span class="triangle"></span>
+             <p class="final-title">Get in Touch</p>
+           </div>
          </div>
          <div class="col-3 min-photo">
           <h5 class="fw-bold">LATEST FROM TWITTER</h5>
@@ -161,11 +165,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
       .container6{
         width: 1000px;
         min-height: 100px;
         margin: 0 auto;
         .max-photo{
+          position: relative;
            padding: 0 0;
            .traveling{
             display: flex;
@@ -202,6 +208,29 @@ export default {
             .number-blue{
               color: #169de1;
             }
+           }
+           .touch{
+             position: absolute;
+             bottom: -2.66em;
+             z-index: 99;
+             .triangle{
+              position: absolute;
+              bottom: 2.664em;
+              width: 0;
+              height: 0;
+              border-style: solid;
+              border-width: 0 0 .9em .6em;
+              border-color: transparent transparent #005580 transparent;
+             }
+             .final-title{
+               font-family: 'Shadows Into Light', cursive;
+               background-color: #169de1;
+               width: 7.5em;
+               padding: .5em 0;
+               text-align: center;
+               color: white;
+               margin-left: .6em;
+             }
            }
         }
         .min-photo{

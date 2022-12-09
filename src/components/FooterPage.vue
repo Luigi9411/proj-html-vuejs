@@ -46,6 +46,27 @@
             </ul>
         </li>
      </ul>
+     <div class="footer-container">
+      <div class="footer-copyright">
+        <img class="img-fluid footer-logo" src="../../public/images/logo-footer.png" alt="error">
+        <p class="copyright">© Copyright 2020. All Right Reserved.</p>
+      </div>
+      <ul class="footer-bottom">
+        <li class="contact">
+          <font-awesome-icon class="icon-faq" icon="fa-solid fa-chevron-right" />
+          <div class="text-faq"> FAQ's</div>
+        </li>
+        <li class="contact">
+          <font-awesome-icon class="icon-faq" icon="fa-solid fa-chevron-right" />
+          <div class="text-faq"> Sistemap</div>
+        </li>
+        <li class="contact">
+          <font-awesome-icon class="icon-faq" icon="fa-solid fa-chevron-right" />
+          <div class="text-faq"> Contact Us</div>
+        </li>
+      </ul>
+     </div>
+     <font-awesome-icon class="chevron-top" icon="fa-solid fa-chevron-up" />
   </footer>
 </template>
 
@@ -94,13 +115,14 @@ export default {
 
 <style lang="scss" scoped>
     footer{
-
+        position: relative;
         min-width:90px;
         background: linear-gradient(to bottom,#212529 80%, #1C2023 20% 100%);
         ul{
-            padding: 3em 0;
+            padding: 4em 0;
             padding-bottom: 5em;
             width: 1000px;
+            height: 267px;
             margin: 0 auto;
             list-style: none;
             display: flex;
@@ -139,5 +161,55 @@ export default {
             }
 
         }
+       .footer-container{
+        width: 1000px;
+        height: 200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        .footer-copyright{
+          display: flex;
+          gap: 3em;
+          .footer-logo{
+            width: 20;
+            height: 15%;
+            margin-top:8.9em;
+            filter: brightness(0.45);
+          }
+          .copyright{
+            color: #656667;
+            font-size: .6em;
+            width: 300px;
+            margin-top:15.5em ;
+          }
+        }
+        .footer-bottom{
+           justify-content: end;
+           height: 200px;
+          .contact{
+              font-size: .6em;
+              color: #656667;
+              display: flex;
+              margin-top: 8.75em;
+              .icon-faq{
+                padding-right: .5em;
+                font-size: .7em;
+                padding-top: .5em;
+              }
+            }
+        }
+       }
+       .chevron-top{
+           position: absolute;
+           color: white;
+           bottom: 0;
+           right: 0;
+           padding: 1.5em 1.5em;
+           margin: 0 1em;
+           background-color: #373839;
+           font-size: .6em;
+           border-radius: 2px;
+           cursor: pointer;
+       }
     }
 </style>
