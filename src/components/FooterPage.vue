@@ -135,6 +135,7 @@ export default {
                 }
                 .footer-paragrafy{
                   width: 310px;
+                  padding-top: .5em;
                   font-size: .6em;
                   line-height: 2em;
                   color: #656667;
@@ -149,11 +150,11 @@ export default {
                     flex-wrap: wrap;
                     width: 140px;
                     gap:.2em;
-                    margin-top: -2.5em;
+                    margin-top: -3.5em;
                     .list{
                         background-color: black;
                         color: white;
-                        padding: .6em .8em;
+                        padding: .4em .8em;
                         font-size: .4em;
                         margin-bottom: 1em;
                     }
